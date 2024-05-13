@@ -1,0 +1,79 @@
+{
+    "candidates": [
+      {
+        "name": "Saurav Singh",
+        "email": "saurav@gmail.com",
+        "score": 78,
+        "active": true,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      },
+      {
+        "name": "John Doe",
+        "email": "john@gmail.com",
+        "score": 72,
+        "active": true,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      },
+      {
+        "name": "Jane Smith",
+        "email": "jane@gmail.com",
+        "score": 64,
+        "active": false,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      },
+      {
+        "name": "Bob Johnson",
+        "email": "bob@gmail.com",
+        "score": 32,
+        "active": true,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      },
+      {
+        "name": "Alice Williams",
+        "email": "alice@gmail.com",
+        "score": 51,
+        "active": true,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      },
+      {
+        "name": "Charlie Brown",
+        "email": "charlie@gmail.com",
+        "score": 44,
+        "active": true,
+        "about": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "experience": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "hobbies": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad",
+        "introduction": "lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad"
+      }
+    ],
+    "assignment": {
+      "title": "Sales BDE",
+      "status": "Active",
+      "link": "https://tiny.url/asknakdna/",
+      "hour": 3,
+      "endsAt": "11 March 2024",
+      "type": "Behavioural",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Tell me about yourself",
+          "score": 9
+        }
+      ]
+    }
+  }
