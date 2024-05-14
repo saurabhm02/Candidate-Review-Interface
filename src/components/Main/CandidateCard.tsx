@@ -31,7 +31,7 @@ const CandidateCard: React.FC<CandidateCardProps> = ({ candidate }) => {
 
   return (
     <div
-      className={` rounded-xl shadow-md ${isSelected ? 'selected' : ''}`}
+      className={` bg-white rounded-xl shadow-md ${isSelected ? 'selected' : ''}`}
       onClick={handleCardClick}
     >
      <div className="flex  p-3">
@@ -58,24 +58,24 @@ const CandidateCard: React.FC<CandidateCardProps> = ({ candidate }) => {
             <div className="flex flex-col gap-5 pt-5">
               <div className="flex flex-col gap-1">
                 <p className=" text-[#404A59] font-semibold">About</p>
-                <p className="text-[#BBC2CC] text-xs">{candidate.about}</p>
+                <p className="text-slate-400 text-xs">{candidate.about}</p>
               </div>
               <div className="flex flex-col gap-1">
                 <p className=" text-[#404A59] font-semibold">Experience</p>
-                <p className="text-[#BBC2CC] text-xs">{candidate.experience}</p>
+                <p className="text-slate-400 text-xs">{candidate.experience}</p>
               </div>
               <div className="flex flex-col gap-1">
                 <p className=" text-[#404A59] font-semibold">Hobbies</p>
-                <p className="text-[#BBC2CC] text-xs">{candidate.hobbies}</p>
+                <p className="text-slate-400 text-xs">{candidate.hobbies}</p>
               </div>
               <div className="flex flex-col gap-1">
                 <p className=" text-[#404A59] font-semibold">Introduction</p>
-                <p className="text-[#BBC2CC] text-xs">{candidate.introduction}</p>
+                <p className="text-slate-400 text-xs">{candidate.introduction}</p>
               </div>
             </div>
 
             <div className="bg-[#1EC3B3] rounded-xl flex items-center justify-center mx-12 text-sm">
-              <button className="text-white px-2 py-2">SHORTLIST</button>
+              <button className="text-white px-2 py-2 font-semibold">SHORTLIST</button>
             </div>
         </div>
         <div className=" h-[500px] relative">

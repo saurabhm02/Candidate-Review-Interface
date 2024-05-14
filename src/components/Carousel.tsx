@@ -38,7 +38,7 @@ const Carousel: React.FC<CarouselProps> = ({ imageSrc }) => {
           <div className=" text-slate-800  text-xl absolute z-10 p-3 bg-white rounded-full flex items-center justify-center ">
             <FaPlay  />
           </div>
-          <img src={imageSrc} alt="Question Image" className="w-full h-[500px] object-cover rounded-t-lg" />
+          <img src={imageSrc} alt="Question Image" className="w-full h-[500px] object-cover rounded-b-lg" />
         </div>
         <div className="absolute inset-0 bg-opacity-50 flex flex-col items-center justify-end rounded-b-lg p-4">
           <span className="text-sm mb-1">{questions[currentIndex]}</span>
