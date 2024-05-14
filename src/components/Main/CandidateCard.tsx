@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Image from 'next/image'
 import Carousel from '../Carousel';
 import ProgressBar from './Progressbar';
 
@@ -36,8 +35,8 @@ const CandidateCard: React.FC<CandidateCardProps> = ({ candidate }) => {
       onClick={handleCardClick}
     >
      <div className="flex  p-3">
-        <div className="w-[390px] h-[580px] flex flex-col gap-3 ">
-            <div className="flex justify-between px-2 py-5 pr-8">
+        <div className="w-[390px] h-[570px] flex flex-col gap-2 ">
+            <div className="flex justify-between px-2 py-2 pr-8">
               <div className="flex gap-2">
                 <img src={candidate.image2} className="rounded-md" width={50} alt="Picture of the author" />
                 <div className="flex flex-col">
@@ -80,7 +79,7 @@ const CandidateCard: React.FC<CandidateCardProps> = ({ candidate }) => {
             </div>
         </div>
         <div className=" h-[500px] relative">
-          <div className="bg-slate-300 h-[60px] rounded-t-lg rounded-tr-lg"></div>
+          <div className="bg-slate-300 h-[50px] rounded-t-lg rounded-tr-lg"></div>
           <div className=" w-[330px] h-[500px] rounded-b-lg  overflow-hidden">
             <Carousel imageSrc={candidate.image2} />
           </div>

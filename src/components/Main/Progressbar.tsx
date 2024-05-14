@@ -1,4 +1,13 @@
-const ProgressBar = ({ label, value, max, color }) => {
+import React from 'react';
+
+interface ProgressBarProps {
+  label: string; 
+  value: number;
+  max: number;
+  color: string;
+}
+
+const ProgressBar: React.FC<ProgressBarProps> = ({ label, value, max, color }) => {
     const fillerWidth = `${(value / max) * 100}%`;
 
     return (
