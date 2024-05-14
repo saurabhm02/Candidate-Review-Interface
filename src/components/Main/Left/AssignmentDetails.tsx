@@ -6,10 +6,18 @@ import CandidateList from './CandidateList';
 
 interface Candidate {
   name: string;
+  video: string;
   email: string;
   score: number;
   image: string;
+  image2: string;
+  about: string;
+  experience: string;
+  hobbies: string;
   introduction: string;
+  Behavioral: number;
+  Communication: number;
+  Situation: number;
 }
 
 interface AssignmentDetailsProps {
@@ -38,19 +46,19 @@ const AssignmentDetails: React.FC<AssignmentDetailsProps> = ({ assignmentData, c
     };
 
     return (
-      <div className=" bg-white rounded-2xl w-[420px] p-3">
-        <div className="flex flex-col gap-3 px-2">
+      <div className=" bg-white rounded-2xl w-[420px] h-[520px] p-3 shadow-md">
+        <div className="flex flex-col gap-2 px-2">
           <div className="flex items-center justify-between">
-            <p className="font-bold text-lg">{assignmentData.title}</p>
+            <p className="font-bold text-base">{assignmentData.title}</p>
             <div className="flex items-center gap-2">
-              <p className="font-bold text-[#0CAD69] text-lh">{assignmentData.status}</p>
-                <div className="bg-white p-2 rounded-[10px] shadow-md">
-                  <HiPencil size={13} />
+              <p className="font-bold text-[#0CAD69] text-base">{assignmentData.status}</p>
+                <div className="bg-white p-2 rounded-[10px] shadow-md cursor-pointer">
+                  <HiPencil size={10} />
                 </div>
             </div>
           </div>
 
-          <div className="text-[#7C8A9E] text-sm font-semibold">
+          <div className="text-[#7C8A9E] text-xs font-semibold">
             <ul>
               <li className="flex flex-col gap-2">
                 <p className="flex items-center justify-between">
@@ -68,7 +76,7 @@ const AssignmentDetails: React.FC<AssignmentDetailsProps> = ({ assignmentData, c
 
           <div className="flex gap-8 font-bold text-sm text-[#323C4C]">
             <div
-              className={`flex items-center gap-2 px-7 py-3 rounded-xl cursor-pointer ${activeItem === 'TO REVIEW' ? 'shadow-lg' : ''}`}
+              className={`flex items-center gap-2 px-7 py-3  rounded-xl cursor-pointer ${activeItem === 'TO REVIEW' ? 'shadow-lg' : ''}`}
               onClick={() => handleItemClick('TO REVIEW')}
                 >
                   <RiBox3Fill/> TO REVIEW
@@ -83,7 +91,7 @@ const AssignmentDetails: React.FC<AssignmentDetailsProps> = ({ assignmentData, c
             </div>
           </div>
 
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3">
             <div>
               <ul className="text-[#A9B6C6] text-xs flex items-center justify-between px-4 pr-8 font-semibold ">
                 <li>CANDIDATE</li>
@@ -93,7 +101,7 @@ const AssignmentDetails: React.FC<AssignmentDetailsProps> = ({ assignmentData, c
             <div>
               <CandidateList candidates={candidatesData} selectedCandidate={selectedCandidate} onCandidateClick={onCandidateClick} />
             </div>
-              </div>
+          </div>
         </div>
       </div>
     );
