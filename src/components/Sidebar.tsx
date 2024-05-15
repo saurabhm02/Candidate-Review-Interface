@@ -27,6 +27,8 @@ const Sidebar = () => {
             </div>
         </div>
 
+        <div className="w-64 h-[1px] bg-slate-500"></div>
+
         <div className="flex gap-4 items-center cursor-pointer font-semibold">
             <IoHome style={{color: "#1ec3b3"}} /> Dashboard
         </div>
