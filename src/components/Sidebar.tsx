@@ -27,13 +27,13 @@ const Sidebar = () => {
             </div>
         </div>
 
-        <div className="w-64 h-[1px] bg-slate-500"></div>
+        <div className=" w-56 h-[1px] bg-slate-500"></div>
 
         <div className="flex gap-4 items-center cursor-pointer font-semibold">
             <IoHome style={{color: "#1ec3b3"}} /> Dashboard
         </div>
 
-        <div className="bg-[#4FD1C5] w-[16rem] text-sm p-4 rounded-2xl text-white flex flex-col gap-4">
+        <div className="bg-[#4FD1C5] w-[15rem] text-sm p-4 rounded-2xl text-white flex flex-col gap-4">
             <div className='text-[#728197] bg-white p-1 w-10 rounded-xl flex items-center cursor-pointer'>
                 <HiPlus size={35}  />
             </div>
